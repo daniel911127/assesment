@@ -1,0 +1,33 @@
+.container-d {
+  display: flex;
+  justify-content: center;
+  .detail {
+    margin: 50px;
+    width: 700px;
+    height: 700px;
+    border: solid 1px #ccc;
+    background: #0e4e5f;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .card-detail {
+      padding: 10px;
+      margin: 5px;
+      width: 80%;
+      border-radius: 20px 0px 0px 20px;
+      object-fit: cover;
+      img {
+        width: 40%;
+        border-radius: 20px 0px 0px 20px;
+        object-fit: cover;
+      }
+      .detail-body {
+        font-size: 20px;
+        padding: 10px;
+      }
+    }
+  }
+}
