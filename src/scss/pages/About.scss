@@ -1,0 +1,22 @@
+.container-a {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 400px;
+
+  .name {
+    margin-left: 100px;
+    text-align: center;
+    align-content: center;
+  }
+  img {
+    width: 80%;
+  }
+  .information {
+    margin-left: 100px;
+    text-align: center;
+    align-content: center;
+  }
+}

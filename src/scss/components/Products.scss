@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .product {
+    margin: 30px;
+    width: 380px;
+    height: 380px;
+    border: solid 1px #ccc;
+    background: #0e4e5f;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .card {
+      width: 30%;
+      border-radius: 20px 0px 0px 20px;
+      object-fit: cover;
+      img {
+        width: 100%;
+        border-radius: 20px 0px 0px 20px;
+        object-fit: cover;
+      }
+      .card-title {
+        font-size: 20px;
+      }
+    }
+  }
+}
