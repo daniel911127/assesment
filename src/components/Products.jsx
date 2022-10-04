@@ -3,7 +3,6 @@ import '../scss/components/Products.scss';
 import Button from './Button';
 
 const Products = ({ products = {} }) => {
-  console.log(products);
   return (
     <div className='container'>
       {products.map((item, index) => (
@@ -13,7 +12,9 @@ const Products = ({ products = {} }) => {
           </div>
           <div className='card-body'>
             <h2 className='card-title'>{item.title}</h2>
-            <Button id={item.id} />
+            <div>
+              <Button id={item.id} />
+            </div>
           </div>
         </div>
       ))}
